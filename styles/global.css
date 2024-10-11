@@ -28,7 +28,9 @@ blockquote {
 a {
   color: inherit;
 }
-
+address{
+  font-style: normal;
+}
 img {
   width: 100%;
 }

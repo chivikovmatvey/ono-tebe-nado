@@ -8,8 +8,6 @@
   height: 288px;
   font-size: 18px;
 }
-.header__menu {
-}
 .header__links-list {
   display: flex;
   gap: 0 20px;
@@ -19,8 +17,6 @@
 a {
   border-bottom: 2px solid;
   text-decoration: none;
-}
-.header__links-list-item {
 }
 .header__links-list-item_no-bullit {
   margin: 1px 0 0 0;
@@ -34,6 +30,7 @@ a {
 }
 .header__logo {
   margin: -5px 0 0 0;
+  border: 0;
 }
 .header__logo-image {
   height: 105px;
@@ -41,13 +38,9 @@ a {
 .adress {
   margin: 0 0 0 20px;
 }
-.header__address {
-}
 .header__adress-list {
   line-height: 24px;
   list-style: none;
-}
-.header__adress-list-item {
 }
 /* конец header */
 
@@ -167,8 +160,6 @@ a {
   width: 334px;
   height: 563px;
 }
-.card-link {
-}
 .card {
   position: relative;
   display: flex;
@@ -268,8 +259,6 @@ a {
   height: 350px;
   font-size: 18px;
 }
-.adress {
-}
 .footer__address {
   margin: 0 0 -40px 20px;
   line-height: 25px;
@@ -277,22 +266,12 @@ a {
 .footer__adress-list {
   list-style: none;
 }
-.footer__adress-list-item {
-}
-.footer__menu {
-}
 .footer__links-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px 0 0 20px;
   list-style: none;
-}
-.footer__links-list-item {
-}
-.footer__links-list-item_no-bullit {
-}
-.footer__link {
 }
 .footer__link_active {
   border: 0px;
