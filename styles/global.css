@@ -6,6 +6,7 @@
 
 body {
   width: 1100px;
+  height: 3023px;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -28,7 +29,7 @@ blockquote {
 a {
   color: inherit;
 }
-address{
+address {
   font-style: normal;
 }
 img {

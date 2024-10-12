@@ -244,7 +244,8 @@ a {
   flex-direction: column;
   grid-column: 2;
   justify-content: space-between;
-  height: 280px;
+  height: 310px;
+  width: 693px;
   margin: 0 0 -200px 0;
   font-size: 20px;
 }
@@ -256,11 +257,11 @@ a {
   grid-template-columns: 1fr 2fr 1fr;
   place-items: center;
   width: 100%;
-  height: 350px;
+  height: 331px;
   font-size: 18px;
 }
 .footer__address {
-  margin: 0 0 -40px 20px;
+  margin: 0 0 -60px 20px;
   line-height: 25px;
 }
 .footer__adress-list {
@@ -270,7 +271,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0 0 20px;
+  margin: 25px 0 0 20px;
   list-style: none;
 }
 .footer__link_active {
@@ -282,7 +283,7 @@ a {
   align-items: center;
   width: 240px;
   height: 55px;
-  margin: 0 50px 0 0;
+  margin: 20px 50px 0 0;
   list-style: none;
 }
 .footer__social-link {
