@@ -81,7 +81,7 @@ a {
   place-self: center end;
   margin: 40px -30px 0 0;
 }
-.ono__letter-space {
+.first__word__letter-space {
   margin: 0 0 0 30px;
 }
 .aligned-text_center {
@@ -90,7 +90,7 @@ a {
   place-self: end;
   margin: 0 -125px -5px 0;
 }
-.tebe__letter-space {
+.second__word__letter-space {
   margin: 0 0 0 30px;
 }
 .aligned-text_right {
@@ -170,21 +170,21 @@ a {
 }
 .card_type_film {
   z-index: -1;
-  background: url(/images/card-lot-01.jpg);
+  background-image: url(/images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .card_type_book {
   z-index: -1;
-  background: url(/images/card-lot-02.jpg);
+  background-image: url(/images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .card_type_picture {
   z-index: -1;
-  background: url(/images/card-lot-03.jpg);
+  background-image: url(/images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -249,6 +249,7 @@ a {
   margin: 0 0 0 0;
   place-self: start;
   font-size: 20px;
+  background-color: aqua;
 }
 /* конец about */
 
